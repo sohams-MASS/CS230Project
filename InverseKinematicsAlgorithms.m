@@ -1,5 +1,5 @@
 function [qfinal] = InverseKinematics(point,learningrate,precision)
-
+%Both inverse kinematic models are implemented here based on commented and uncommented lines.
 
     %Load Forward Kinematic Model
     load FeedforwardkNN.mat
