@@ -1,6 +1,7 @@
 
 %% Initializing parameters 
 function [r1,r2,r3] = moving_CTR(q)
+%Based on Mohsen Khadem et. Al Model Predictive Control of Concentric Tube Robots
 
 param  % load tube parameters inside param.m file
 
