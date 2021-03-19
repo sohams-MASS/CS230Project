@@ -1,7 +1,7 @@
 
 %Training Forward and Inverse Kinematic NN (For Inverse simply switch)
 
-name = ['FormalTraining3.csv'];
+        name = ['FormalTraining3.csv'];
         datamatrix = readmatrix(name);
         %For inverse simply switch
         targets = datamatrix(:,4:9);
